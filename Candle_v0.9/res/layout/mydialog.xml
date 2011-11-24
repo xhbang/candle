@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<LinearLayout 
+  xmlns:android="http://schemas.android.com/apk/res/android" 
+  android:background="@drawable/black" 
+  android:orientation="vertical" 
+  android:layout_width="fill_parent" 
+  android:layout_height="fill_parent" 
+  > 
+  <TextView 
+    android:id="@+id/myTextView" 
+    android:layout_width="fill_parent"  
+    android:layout_height="wrap_content"
+    android:textColor="@drawable/white"
+    android:gravity="center"
+    android:padding="16px"
+  >
+  </TextView> 
+  <Button 
+    android:id="@+id/myButton" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:text="返回"
+  >
+  </Button> 
+</LinearLayout>
